@@ -13,7 +13,6 @@ def generate():
     img = qr.make_image(fill="Black", back_color="white")
     img.save("qrcode.png")
 
-
 root = Tk()
 root.geometry("600x600")
 root.title("My GUI")
